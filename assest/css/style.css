@@ -1,0 +1,133 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  background-color: #ebae01;
+}
+
+.navbar-brand>img {
+  height: 49px;
+  width: 204px;
+}
+
+#search {
+  background-color: #ffc400;
+  border: 0px #fff solid;
+  border-radius: 0px;
+  color: #fff;
+  box-shadow: 0px 0px 6px 3px #ddae28;
+  height: 29px;
+}
+
+#search::placeholder {
+  color: #fff;
+}
+
+#searchButton {
+  background-color: #00bfd0;
+}
+
+/*  */
+.cover-background {
+  background-color: #ffc400;
+}
+
+.dogimage {
+  height: 437px;
+}
+
+.btn-service {
+  border: 2px #fff solid;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+.line_ontext {
+  text-decoration: line-through;
+  width: 60px;
+}
+
+.buy-button {
+  width: 120px;
+  border-radius: 56px;
+}
+.zoom {
+  
+  transition: transform .2s; /* Animation */
+ 
+  
+}
+
+.zoom:hover {
+  transform: scale(1.3); 
+}
+
+
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  color: #ffc107;
+
+}
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+  color: #ffc107;
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.background-photo{
+  /* background-image: url(); */
+  height: 100%;
+  width: 100%;
+  color: white;
+  background: linear-gradient( #e6a400c2, #e6a400c2);
+
+}
+
+.list{
+  list-style-type: none;
+  padding: 5px 0px 0px 0px ;
+
+}
+.list>a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.icons-follw{
+  color:white;
+}
