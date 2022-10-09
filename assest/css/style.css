@@ -25,9 +25,9 @@ header {
   color: #fff;
 }
 
-#searchButton {
+/* #searchButton {
   background-color: #00bfd0;
-}
+} */
 
 /*  */
 .cover-background {
@@ -41,7 +41,11 @@ header {
 .btn-service {
   border: 2px #fff solid;
 }
+.btn-service:hover{
+background-color: #0d6efd;
+border: 2px #fff solid;
 
+}
 .box {
   width: 150px;
   height: 150px;
